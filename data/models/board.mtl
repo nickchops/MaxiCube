@@ -1,0 +1,28 @@
+CIwMaterial
+{
+    name "board/toys"
+    colDiffuse {0.800000,0.800000,0.800000,1.000000}
+    colEmissive {0.800000,0.800000,0.800000,0.000000}
+    texture0 "./textures/toys.png"
+}
+CIwMaterial
+{
+    name "board/board"
+    colDiffuse {1.000000,1.000000,1.000000,1.000000}
+    colEmissive {1.000000,1.000000,1.000000,0.000000}
+    texture0 "./textures/board.png"
+}
+CIwMaterial
+{
+    name "board/floor"
+    colDiffuse {0.800000,0.800000,0.800000,1.000000}
+    colEmissive {0.800000,0.800000,0.800000,0.000000}
+    texture0 "./textures/floor1.png"
+}
+CIwMaterial
+{
+    name "board/floor2"
+    colDiffuse {0.800000,0.800000,0.800000,1.000000}
+    colEmissive {0.800000,0.800000,0.800000,0.000000}
+    texture0 "./textures/floor2.png"
+}

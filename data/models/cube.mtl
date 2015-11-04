@@ -1,0 +1,7 @@
+CIwMaterial
+{
+    name "cube/cube"
+    colDiffuse {1.000000,1.000000,1.000000,1.000000}
+    colEmissive {1.000000,1.000000,1.000000,0.000000}
+    texture0 "./textures/newcube.png"
+}

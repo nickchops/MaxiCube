@@ -1,0 +1,42 @@
+#!/usr/bin/env mkb
+files
+{
+    [Source]
+    (source)
+    MaxiCube.cpp
+    Resources.h
+    Resources.cpp
+    MyActor.h
+    MyActor.cpp
+    MyWorld.h
+    MyWorld.cpp
+
+    [Data]
+    (data)
+    board.group
+    cube.group
+}
+
+assets
+{
+    (data)
+    turn.wav
+	impact.ttf
+    end_round.mp3
+    game_over.mp3
+    
+    (data-ram/data-gles1, data)
+    board.group.bin
+    cube.group.bin
+}
+
+subprojects
+{
+    iwutil
+    iwgx
+	IwEngineCore
+}
+
+deployment
+{
+}
